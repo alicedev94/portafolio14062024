@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --principal: #4ed2ad;
+  --secundario: #73d9bc;
+  --background: #232525;
+  --exitoso: #9befd7;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 auto;
+}
+
+.encabezado {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  background-color: var(--background);
+}
+
+span {
+    font-size: 4.4rem;
+}
+
+.titulo {
+  color: transparent;
+  background: linear-gradient(var(--principal), var(--exitoso));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 80%;
+    /* margin: 0 auto; */
+}
